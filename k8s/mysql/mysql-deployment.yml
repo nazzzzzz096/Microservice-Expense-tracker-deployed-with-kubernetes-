@@ -23,9 +23,9 @@ spec:
                   name: mysql-secret
                   key: root-password
             - name: MYSQL_DATABASE
-              value: user_service_db
+              value: #database name
             - name: MYSQL_USER
-              value: user_service
+              value: #use name
             - name: MYSQL_PASSWORD
               valueFrom:
                 secretKeyRef:
@@ -54,3 +54,4 @@ spec:
     - port: 3306
       targetPort: 3306
   type: ClusterIP
+
