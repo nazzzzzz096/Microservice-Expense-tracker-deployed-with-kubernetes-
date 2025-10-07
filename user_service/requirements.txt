@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+pymysql
+python-jose
+python-dotenv
+pydantic
+cryptography
+passlib[bcrypt,argon2]
+argon2-cffi
+
